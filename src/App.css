@@ -1,40 +1,49 @@
 @import-normalize;
 
-.App {
-  text-align: center;
+@font-face {
+    font-family: primary-font;
+    src: url('./assets/fonts/louis-george-cafe/Louis George Cafe.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --primary-colour: #fa955f;
+    --primary-colour--dark: #cc6a35;
+    --primary-colour--light: #ffdbc7;
+    --primary-colour--tint: #fcefe8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+    font-family: primary-font;
+    margin: 0;
+    padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.masthead {
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid #d1d1d1;
+    display: block;
+    font-size: 24px;
+    justify-content: space-between;
+    position: sticky;
+    text-align: center;
+
+    @media only screen and (min-width: 769px) {
+        display: flex;
+        height: 80px;
+        margin: auto 50px;
+    }
+
+    @media only screen and (min-width: 1201px) {
+        padding: 0 100px;
+    }
 }
 
-.App-link {
-  color: #61dafb;
-}
+.masthead-name {
+    display: block;
+    padding: 10px 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    @media only screen and (min-width: 769px) {
+        display: flex;
+    }
 }
