@@ -51,7 +51,7 @@
 }
 
 main {
-    display: inline-flex;
+    display: flex;
     margin: 0 25px;
     width: calc(100% - 50px);
 
@@ -81,13 +81,19 @@ h3 {
 }
 
 .profile-image {
-    clip-path: url("#blob4");
-    height: 60vh;
     margin: auto 0;
+    width: 50%;
+}
+
+.profile-image img {
+    clip-path: url("#blob4");
+    display: flex;
+    height: 60vh;
+    margin: auto;
 }
 
 .content {
-    margin: auto;
+    margin: auto auto auto 50px;
 }
 
 .social-icons {
