@@ -43,9 +43,12 @@
       "last 1 safari version"
     ]
   },
-    "husky": {
-      "hooks": {
+  "husky": {
+    "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
