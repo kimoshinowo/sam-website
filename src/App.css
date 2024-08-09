@@ -10,6 +10,8 @@
     --primary-colour--dark: #cc6a35;
     --primary-colour--light: #ffdbc7;
     --primary-colour--tint: #fcefe8;
+
+    font-size: 16px;
 }
 
 * {
@@ -47,3 +49,62 @@
         display: flex;
     }
 }
+
+main {
+    display: inline-flex;
+    margin: 0 25px;
+    width: calc(100% - 50px);
+
+    @media only screen and (min-width: 769px) {
+        height: calc(100vh - 82px);
+        margin: 0 50px;
+        width: calc(100% - 100px);
+    }
+
+    @media only screen and (min-width: 1201px) {
+        margin: 0 150px;
+        width: calc(100% - 300px);
+    }
+}
+
+h2, h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.profile-image {
+    clip-path: url("#blob4");
+    height: 60vh;
+    margin: auto 0;
+}
+
+.content {
+    margin: auto;
+}
+
+.social-icons {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+    width: 80%;
+}
+
+.social-icon {
+    display: block;
+    height: 44px;
+    transition: transform .4s; /* Animation */
+    width: 44px;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
