@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sam-website/static/css/main.7c18dc6b.css",
+    "main.js": "/sam-website/static/js/main.fb614bed.js",
+    "static/js/453.f57589a8.chunk.js": "/sam-website/static/js/453.f57589a8.chunk.js",
+    "static/media/Louis George Cafe.ttf": "/sam-website/static/media/Louis George Cafe.eacd87871e9a39013626.ttf",
+    "index.html": "/sam-website/index.html",
+    "main.7c18dc6b.css.map": "/sam-website/static/css/main.7c18dc6b.css.map",
+    "main.fb614bed.js.map": "/sam-website/static/js/main.fb614bed.js.map",
+    "453.f57589a8.chunk.js.map": "/sam-website/static/js/453.f57589a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c18dc6b.css",
+    "static/js/main.fb614bed.js"
+  ]
+}
