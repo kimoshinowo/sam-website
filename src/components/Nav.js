@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../styles/Hamburger.css';
 import '../styles/Nav.css';
+import { Link } from "react-router-dom";
 
 function Hamburger({ isOpen }) {
     return (
@@ -20,18 +21,32 @@ const Nav = () => {
     }
 
     return (
-        <div className="nav-wrap">
-            <div onClick={toggleHamburger}>
-                <Hamburger isOpen={hamburgerOpen}/>
+        <header className="masthead">
+            <div className="masthead-name">
+                <h1>Samuel</h1>
             </div>
-            
-            <ul className={"nav nav-open-" + hamburgerOpen}>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Contact</li>
-            </ul>
-        </div>
+
+            <nav className="nav-wrap">
+                <div onClick={toggleHamburger}>
+                    <Hamburger isOpen={hamburgerOpen}/>
+                </div>
+                
+                <ul className={"nav nav-open-" + hamburgerOpen}>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/skills">Skills</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     );
 }
 
