@@ -34,18 +34,18 @@
 
     @media only screen and (min-width: 769px) {
         display: flex;
-        height: 80px;
+        height: auto;
         margin: auto 50px;
     }
 
     @media only screen and (min-width: 1201px) {
-        padding: 0 100px;
+        padding: 0 150px;
     }
 }
 
 .masthead-name {
     display: block;
-    padding: 10px 20px;
+    padding: 20px 0;
 
     @media only screen and (min-width: 769px) {
         display: flex;
@@ -54,18 +54,35 @@
 
 main {
     display: flex;
-    margin: 0 25px;
+    flex-direction: column;
+    margin: 25px;
     width: calc(100% - 50px);
+
+    @media only screen and (min-width: 600px) {
+        flex-direction: row;
+    }
 
     @media only screen and (min-width: 769px) {
         height: calc(100vh - 82px);
-        margin: 0 50px;
+        margin: 50px;
         width: calc(100% - 100px);
     }
 
     @media only screen and (min-width: 1201px) {
-        margin: 0 150px;
+        margin: 50px 200px;
         width: calc(100% - 300px);
+    }
+}
+
+main.homepage {
+    margin: 25px;
+
+    @media only screen and (min-width: 769px) {
+        margin: 0 50px;
+    }
+
+    @media only screen and (min-width: 1201px) {
+        margin: 0 150px;
     }
 }
 
@@ -75,34 +92,65 @@ h2, h3 {
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 4rem;
+    
+    @media only screen and (min-width: 769px) {
+        font-size: 5rem;
+    }
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
+
+    @media only screen and (min-width: 769px) {
+        font-size: 3rem;
+    }
 }
 
 .profile-image {
-    margin: auto 0;
-    width: 50%;
+    margin: auto;
+    width: 80%;
+
+    @media only screen and (min-width: 600px) {
+        margin: auto 0;
+        width: 50%;
+    }
 }
 
 .profile-image img {
-    clip-path: url("#blob4");
+    clip-path: url("#blob");
     display: flex;
-    height: 60vh;
     margin: auto;
+    width: 100%;
+
+    @media only screen and (min-width: 769px) {
+        height: auto;
+        max-height: 60vh;
+        max-width: 100%;
+        width: auto;
+    }
 }
 
 .content {
-    margin: auto auto auto 50px;
+    margin: auto;
+    text-align: center;
+
+    @media only screen and (min-width: 769px) {
+        margin: auto auto auto 50px;
+        max-width: 300px;
+        text-align: left;
+    }
 }
 
 .social-icons {
     display: inline-flex;
     justify-content: space-between;
-    margin: 50px 10%;
+    margin: 25px 10%;
     width: 80%;
+
+    @media only screen and (min-width: 769px) {
+        margin: 50px 10%;
+    }
 }
 
 .social-icon {
