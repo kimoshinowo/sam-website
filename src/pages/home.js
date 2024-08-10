@@ -19,8 +19,8 @@ const Home = () => {
             </div>
 
             <div className="content">
-                <h2>Hi, I&rsquo;m Samuel</h2>
-                <h3><i>Data Scientist</i></h3>
+                <h1>Hi, I&rsquo;m Samuel</h1>
+                <h2><i>Data Scientist</i></h2>
                 
                 <div className="social-icons">
                     <a href="https://github.com/samuelchardy" target="_blank"><img src={githubIcon} alt="Github icon" class="social-icon"></img></a>
