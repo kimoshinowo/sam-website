@@ -23,8 +23,11 @@
     }
 }
 
-.nav li {
+li {
     list-style: none;
+}
+
+.nav li > a {
     padding: 20px;
     text-decoration: underline;
     text-decoration-color: white;
@@ -36,13 +39,13 @@
     }
 }
 
-.nav li:hover {
+.nav li > a:hover {
     background-color: var(--primary-colour--tint);
     cursor: pointer;
     text-decoration-color: var(--primary-colour--dark);
 }
 
-.nav li:has(.nav-item-current) {
+.nav li > a:has(.nav-item-current) {
     background-color: var(--primary-colour--light);
     text-decoration-color: var(--primary-colour--dark);
 }
