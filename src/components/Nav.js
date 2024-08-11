@@ -33,16 +33,16 @@ const Nav = () => {
                 
                 <ul className={"nav nav-open-" + hamburgerOpen}>
                     <li>
-                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/">Home</NavLink>
+                        <NavLink to="/sam-website/">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/about">About</NavLink>
+                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/sam-website/about">About</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/skills">Skills</NavLink>
+                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/sam-website/skills">Skills</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/contact">Contact</NavLink>
+                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/sam-website/contact">Contact</NavLink>
                     </li>
                 </ul>
             </nav>
