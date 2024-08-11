@@ -68,15 +68,19 @@ main {
     }
 
     @media only screen and (min-width: 1201px) {
-        margin: 50px 200px;
+        margin: 80px 150px;
         width: calc(100% - 300px);
+    }
+
+    @media only screen and (min-width: 1501px) {
+        margin: 80px 300px;
+        width: calc(100% - 600px);
     }
 }
 
 main.homepage {
     display: flex;
     flex-direction: column;
-    margin: 25px;
 
     @media only screen and (min-width: 600px) {
         flex-direction: row;
@@ -88,12 +92,13 @@ main.homepage {
 
     @media only screen and (min-width: 1201px) {
         margin: 0 150px;
+        width: calc(100% - 300px);
     }
 }
 
 h1, h2 {
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -136,7 +141,7 @@ h2 {
     }
 }
 
-.content {
+.homepage .content {
     margin: auto;
     text-align: center;
 
@@ -147,7 +152,7 @@ h2 {
     }
 }
 
-.content h1 {
+.homepage .content h1 {
     font-size: 4rem;
     
     @media only screen and (min-width: 769px) {
@@ -177,3 +182,98 @@ h2 {
     transform: scale(1.1);
 }
 
+p {
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+p.large {
+    font-size: 1.5rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+    @media only screen and (min-width: 600px) {
+        flex-direction: row;
+    }
+}
+
+.intro .content {
+    width: 100%;
+
+    @media only screen and (min-width: 600px) {
+        width: 60%;
+    }
+}
+
+.intro .profile-image img {
+    max-height: 350px;
+    margin-top: 25px;
+    width: unset;
+
+    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+        margin-left: 50px;
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 769px) {
+        max-width: 250px;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 900px) {
+        max-width: 300px;
+    }
+}
+
+.content-highlight {
+    background-color: var(--primary-colour--tint);
+    margin-bottom: 60px;
+    padding: 60px 40px;
+
+    @media only screen and (min-width: 600px) {
+        padding: 60px 80px;
+    }
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    
+    @media only screen and (min-width: 600px) {
+        flex-direction: row;
+    }
+}
+
+.image-text:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.image-text img {
+    height: auto;
+    margin: 20px auto auto;
+    max-width: 200px;
+    order: 1;
+    width: auto;
+
+    @media only screen and (min-width: 600px) {
+        margin-right: 50px;
+        max-height: 150px;
+        max-width: unset;
+        order: unset;
+    }
+}
+
+.image-text img:nth-child(2n) {
+    
+
+    @media only screen and (min-width: 600px) {
+        margin-right: 0;
+        margin-left: 50px;
+    }
+}
+
+img.myndspan {
+    border-radius: 100px;
+}
