@@ -97,10 +97,10 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     
     @media only screen and (min-width: 769px) {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
@@ -144,6 +144,14 @@ h2 {
         margin: auto auto auto 50px;
         max-width: 300px;
         text-align: left;
+    }
+}
+
+.content h1 {
+    font-size: 4rem;
+    
+    @media only screen and (min-width: 769px) {
+        font-size: 5rem;
     }
 }
 
