@@ -10,7 +10,7 @@ const About = () => {
                 <div className="content">
                     <h1>Who am I?</h1>
 
-                    <p className="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p className="large">A professional data scientist living in West Yorkshire, with experience in personalised analysis, engaging with stakeholders, and managing projects. My skills include data cleaning, exploratory analysis, modelling, clustering, and predictive analysis, with the effect of uncovering relationships and trends which provide actionable insights with real world impact.</p>
                 </div>
 
                 <div className="profile-image">
@@ -28,7 +28,9 @@ const About = () => {
                     <span>
                         <h2>Education</h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>I studied at Lancaster University from 2017-2021, achieving first class honours in BSc Computer Science, and distinction in MSc Data Science. During both these courses I explored projects with heavy machine learning and artificial intelligence components, which provided a solid foundation for the data driven analysis I now provide.</p>
+                        
+                        <p>During my time at university I was asked to provide a talk to the academics and students of the Data Science Institute regarding my undergraduate dissertation. Additionally, after the first year of my undergraduate studies I received a letter of commendation from the school of computing and communications as recognition for outstanding coursework and exam results. Following this I was able to work for the university as a teaching assistant, helping students with programming, mathematics, and logic in laboratory and seminar sessions.</p>
                     </span>
                 
                     <img src={lancsLogo} alt="Lancaster University logo" ></img>
@@ -40,7 +42,7 @@ const About = () => {
                     <span>
                         <h2>Career</h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>After leaving university I joined a small neuro-technology startup, where I have been fortunate to work with leaders in both industry and academia. My focus has been utilising brain data to produce data-driven insights for individuals looking to understand more about their brain activity, including machine learning to predict an individual's age using their brain activity, and measures of "brain stability" between multiple recordings of brain activity. An academic paper detailing the team's work on brain age prediction was published in Imaging Neuroscience.</p>
                     </span>
                 </div>
             </div>
