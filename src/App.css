@@ -215,8 +215,9 @@ p.large {
 
 .intro .profile-image img {
     max-height: 350px;
+    max-width: 100%;
     margin-top: 25px;
-    width: unset;
+    width: auto;
 
     @media only screen and (min-width: 600px) and (max-width: 1200px) {
         margin-left: 50px;
@@ -263,6 +264,7 @@ p.large {
 
     @media only screen and (min-width: 600px) {
         margin-right: 50px;
+        margin-top: auto;
         max-height: 150px;
         max-width: unset;
         order: unset;
@@ -270,8 +272,6 @@ p.large {
 }
 
 .image-text img:nth-child(2n) {
-    
-
     @media only screen and (min-width: 600px) {
         margin-right: 0;
         margin-left: 50px;
