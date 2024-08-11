@@ -62,7 +62,6 @@ main {
     width: calc(100% - 50px);
 
     @media only screen and (min-width: 769px) {
-        height: calc(100vh - 82px);
         margin: 50px;
         width: calc(100% - 100px);
     }
@@ -81,6 +80,7 @@ main {
 main.homepage {
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 97px);
 
     @media only screen and (min-width: 600px) {
         flex-direction: row;
@@ -118,7 +118,8 @@ h2 {
 }
 
 .profile-image {
-    margin: auto;
+    font-size: 0;
+    margin: auto auto 25px;
     width: 80%;
 
     @media only screen and (min-width: 600px) {
@@ -167,11 +168,11 @@ h2 {
 .social-icons {
     display: inline-flex;
     justify-content: space-between;
-    margin: 25px 10%;
+    margin: 25px 10% 50px;
     width: 80%;
 
     @media only screen and (min-width: 769px) {
-        margin: 50px 10%;
+        margin: 50px 10% 0;
     }
 }
 
