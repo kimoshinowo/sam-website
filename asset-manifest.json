@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sam-website/static/css/main.53df5d39.css",
-    "main.js": "/sam-website/static/js/main.5cca6a3b.js",
+    "main.css": "/sam-website/static/css/main.142ea56d.css",
+    "main.js": "/sam-website/static/js/main.5f683ec0.js",
     "static/js/453.f57589a8.chunk.js": "/sam-website/static/js/453.f57589a8.chunk.js",
     "static/media/profile-image.png": "/sam-website/static/media/profile-image.e2bbf3c536355aee2008.png",
     "static/media/sam.jpg": "/sam-website/static/media/sam.d98791b6af8228ece4b8.jpg",
@@ -12,12 +12,12 @@
     "static/media/github.svg": "/sam-website/static/media/github.981ed5c27eeadd32f9af6a445bf474ca.svg",
     "static/media/linkedin.svg": "/sam-website/static/media/linkedin.e31a9556cedd41f90f105aa2bd014165.svg",
     "index.html": "/sam-website/index.html",
-    "main.53df5d39.css.map": "/sam-website/static/css/main.53df5d39.css.map",
-    "main.5cca6a3b.js.map": "/sam-website/static/js/main.5cca6a3b.js.map",
+    "main.142ea56d.css.map": "/sam-website/static/css/main.142ea56d.css.map",
+    "main.5f683ec0.js.map": "/sam-website/static/js/main.5f683ec0.js.map",
     "453.f57589a8.chunk.js.map": "/sam-website/static/js/453.f57589a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53df5d39.css",
-    "static/js/main.5cca6a3b.js"
+    "static/css/main.142ea56d.css",
+    "static/js/main.5f683ec0.js"
   ]
 }
