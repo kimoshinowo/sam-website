@@ -150,6 +150,10 @@ h2 {
         max-width: 300px;
         text-align: left;
     }
+
+    @media only screen and (min-width: 1201px) {
+        margin: auto auto auto 100px;
+    }
 }
 
 .homepage .content h1 {
