@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sam-website/static/css/main.83604a41.css",
-    "main.js": "/sam-website/static/js/main.c317691b.js",
+    "main.css": "/sam-website/static/css/main.1c879b4a.css",
+    "main.js": "/sam-website/static/js/main.1173f7af.js",
     "static/js/453.f57589a8.chunk.js": "/sam-website/static/js/453.f57589a8.chunk.js",
     "static/media/profile-image.png": "/sam-website/static/media/profile-image.e2bbf3c536355aee2008.png",
     "static/media/Louis George Cafe.ttf": "/sam-website/static/media/Louis George Cafe.eacd87871e9a39013626.ttf",
@@ -10,12 +10,12 @@
     "static/media/github.svg": "/sam-website/static/media/github.981ed5c27eeadd32f9af6a445bf474ca.svg",
     "static/media/linkedin.svg": "/sam-website/static/media/linkedin.e31a9556cedd41f90f105aa2bd014165.svg",
     "index.html": "/sam-website/index.html",
-    "main.83604a41.css.map": "/sam-website/static/css/main.83604a41.css.map",
-    "main.c317691b.js.map": "/sam-website/static/js/main.c317691b.js.map",
+    "main.1c879b4a.css.map": "/sam-website/static/css/main.1c879b4a.css.map",
+    "main.1173f7af.js.map": "/sam-website/static/js/main.1173f7af.js.map",
     "453.f57589a8.chunk.js.map": "/sam-website/static/js/453.f57589a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83604a41.css",
-    "static/js/main.c317691b.js"
+    "static/css/main.1c879b4a.css",
+    "static/js/main.1173f7af.js"
   ]
 }
