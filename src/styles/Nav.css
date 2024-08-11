@@ -41,3 +41,8 @@
     cursor: pointer;
     text-decoration-color: var(--primary-colour--dark);
 }
+
+.nav li:has(.nav-item-current) {
+    background-color: var(--primary-colour--light);
+    text-decoration-color: var(--primary-colour--dark);
+}

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../styles/Hamburger.css';
 import '../styles/Nav.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Hamburger({ isOpen }) {
     return (
@@ -33,16 +33,16 @@ const Nav = () => {
                 
                 <ul className={"nav nav-open-" + hamburgerOpen}>
                     <li>
-                        <Link to="/">Home</Link>
+                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/">Home</NavLink>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/about">About</NavLink>
                     </li>
                     <li>
-                        <Link to="/skills">Skills</Link>
+                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/skills">Skills</NavLink>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <NavLink className={({ isActive }) => isActive? "nav-item-current": ""} to="/contact">Contact</NavLink>
                     </li>
                 </ul>
             </nav>
