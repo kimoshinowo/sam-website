@@ -28,6 +28,7 @@ li {
 }
 
 .nav li > a {
+    display: block;
     padding: 20px;
     text-decoration: underline;
     text-decoration-color: white;
@@ -45,7 +46,7 @@ li {
     text-decoration-color: var(--primary-colour--dark);
 }
 
-.nav li > a:has(.nav-item-current) {
+.nav li > a.nav-item-current {
     background-color: var(--primary-colour--light);
     text-decoration-color: var(--primary-colour--dark);
 }
