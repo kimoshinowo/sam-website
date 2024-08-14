@@ -23,10 +23,10 @@ const Home = () => {
                 <h2><i>Data Scientist</i></h2>
                 
                 <div className="social-icons">
-                    <a href="https://github.com/samuelchardy" target="_blank"><img src={githubIcon} alt="Github icon" class="social-icon"></img></a>
-                    <a href="https://www.linkedin.com/in/samuel-chad-hardy/" target="_blank"><img src={linkedinIcon} alt="LinkedIn icon" class="social-icon"></img></a>
-                    <a href="https://www.researchgate.net/profile/Samuel_Hardy10" target="_blank"><img src={rgIcon} alt="ResearchGate icon" class="social-icon"></img></a>
-                    <a href="mailto:samuelchadhardy@gmail.com" target="_blank"><img src={emailIcon} alt="Email icon" class="social-icon"></img></a>
+                    <a href="https://github.com/samuelchardy" target="_blank" rel="noreferrer"><img src={githubIcon} alt="Github icon" class="social-icon"></img></a>
+                    <a href="https://www.linkedin.com/in/samuel-chad-hardy/" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="LinkedIn icon" class="social-icon"></img></a>
+                    <a href="https://www.researchgate.net/profile/Samuel_Hardy10" target="_blank" rel="noreferrer"><img src={rgIcon} alt="ResearchGate icon" class="social-icon"></img></a>
+                    <a href="mailto:samuelchadhardy@gmail.com" target="_blank" rel="noreferrer"><img src={emailIcon} alt="Email icon" class="social-icon"></img></a>
                 </div>
             </div>
         </main>
