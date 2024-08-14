@@ -24,7 +24,7 @@ const About = () => {
             </div>
 
             <div className="content-highlight">
-                <div className="image-text">
+                <div className="image-text margin-bottom">
                     <span>
                         <h2>Education</h2>
 
