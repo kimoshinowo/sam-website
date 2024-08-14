@@ -282,3 +282,18 @@ p.large {
 img.myndspan {
     border-radius: 100px;
 }
+
+
+/* Modifiers */
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-large {
+    margin-bottom: 80px;
+}
+
+.center {
+    text-align: center;
+}
