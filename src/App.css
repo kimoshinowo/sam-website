@@ -193,7 +193,7 @@ p {
 }
 
 p.large {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .intro {
@@ -235,11 +235,36 @@ p.large {
 
 .content-highlight {
     background-color: var(--primary-colour--tint);
-    margin-bottom: 60px;
     padding: 60px 40px;
 
     @media only screen and (min-width: 600px) {
         padding: 60px 80px;
+    }
+}
+
+.content-highlight--dark {
+    background-color: var(--primary-colour--dark);
+}
+
+.content-highlight--dark h2, .content-highlight--dark p {
+    color: white;
+}
+
+.content-highlight--offset:nth-child(odd) {
+    margin-bottom: 25px;
+
+    @media only screen and (min-width: 900px) {
+        margin-bottom: 0;
+        margin-left: 100px;
+    }
+}
+
+.content-highlight--offset:nth-child(even) {
+    margin-bottom: 25px;
+
+    @media only screen and (min-width: 900px) {
+        margin-bottom: 0;
+        margin-right: 100px;
     }
 }
 
@@ -250,10 +275,6 @@ p.large {
     @media only screen and (min-width: 600px) {
         flex-direction: row;
     }
-}
-
-.image-text:not(:last-child) {
-    margin-bottom: 50px;
 }
 
 .image-text img {
@@ -272,7 +293,7 @@ p.large {
     }
 }
 
-.image-text img:nth-child(2n) {
+.image-text img:nth-child(even) {
     @media only screen and (min-width: 600px) {
         margin-right: 0;
         margin-left: 50px;
