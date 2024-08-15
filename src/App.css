@@ -40,8 +40,8 @@ main {
     }
 
     @media only screen and (min-width: 1501px) {
-        margin: 80px 300px;
-        width: calc(100% - 600px);
+        margin: 80px 200px;
+        width: calc(100% - 400px);
     }
 }
 
