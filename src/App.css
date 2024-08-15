@@ -282,7 +282,7 @@ a > *:hover {
     color: white;
 }
 
-.content-highlight--offset:nth-child(even) {
+.content-highlight--offset {
     margin-bottom: 25px;
 
     @media only screen and (min-width: 900px) {
@@ -292,11 +292,9 @@ a > *:hover {
 }
 
 .content-highlight--offset:nth-child(odd) {
-    margin-bottom: 25px;
-
     @media only screen and (min-width: 900px) {
-        margin-bottom: 0;
         margin-left: 100px;
+        margin-right: 0;
     }
 }
 
