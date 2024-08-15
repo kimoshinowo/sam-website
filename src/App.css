@@ -282,21 +282,21 @@ a > *:hover {
     color: white;
 }
 
-.content-highlight--offset:nth-child(2n+1) {
-    margin-bottom: 25px;
-
-    @media only screen and (min-width: 900px) {
-        margin-bottom: 0;
-        margin-left: 100px;
-    }
-}
-
-.content-highlight--offset:nth-child(2n) {
+.content-highlight--offset:nth-child(even) {
     margin-bottom: 25px;
 
     @media only screen and (min-width: 900px) {
         margin-bottom: 0;
         margin-right: 100px;
+    }
+}
+
+.content-highlight--offset:nth-child(odd) {
+    margin-bottom: 25px;
+
+    @media only screen and (min-width: 900px) {
+        margin-bottom: 0;
+        margin-left: 100px;
     }
 }
 
