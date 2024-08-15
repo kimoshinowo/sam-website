@@ -291,7 +291,7 @@ a > *:hover {
     }
 }
 
-.content-highlight--offset:nth-child(odd) {
+.content-highlight--offset:nth-of-type(even) {
     @media only screen and (min-width: 900px) {
         margin-left: 100px;
         margin-right: 0;
