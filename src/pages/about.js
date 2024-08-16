@@ -1,5 +1,5 @@
 import React from "react";
-import sam from '../assets/images/sam.jpg';
+import sam from '../assets/images/sam.webp';
 import lancsLogo from '../assets/images/lancaster-uni-logo.png';
 import myndspanLogo from '../assets/images/myndspan.jpg';
  

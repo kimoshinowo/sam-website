@@ -1,6 +1,6 @@
 import React from "react";
 
-import profileImage from '../assets/images/profile-image.png';
+import profileImage from '../assets/images/profile-image.webp';
 import emailIcon from '../assets/images/icons/email.svg';
 import githubIcon from '../assets/images/icons/github.svg';
 import linkedinIcon from '../assets/images/icons/linkedin.svg';
