@@ -42,12 +42,17 @@ const Contact = () => {
 
             <form action="https://formspree.io/f/mdkndppw" method="POST">
                 <div className="form-item">
-                    <label for="name">Name</label>
+                    <label for="name">Name:</label>
                     <input type="text" name="name" required></input>
                 </div>
 
                 <div className="form-item">
-                    <label for="email">Email address</label>
+                    <label for="message">Message:</label>
+                    <textarea type="text" name="message" rows="10" required></textarea>
+                </div>
+
+                <div className="form-item">
+                    <label for="email">Email address:</label>
                     <input type="email" name="email" required></input>
                 </div>
 
