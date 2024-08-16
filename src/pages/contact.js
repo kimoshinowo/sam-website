@@ -40,7 +40,7 @@ const Contact = () => {
             
             <h3 className="margin-bottom center">Or contact me directly by completing this form:</h3>
 
-            <form>
+            <form action="https://formspree.io/f/mdkndppw">
                 <div className="form-item">
                     <label for="name">Name</label>
                     <input type="text" name="name" required></input>
