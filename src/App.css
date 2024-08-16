@@ -179,6 +179,7 @@ button {
 button:hover,
 button:focus {
     background-color: var(--primary-colour);
+    color: black;
 }
 
 button:active {
