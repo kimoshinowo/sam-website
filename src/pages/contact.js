@@ -38,9 +38,21 @@ const Contact = () => {
                 </div>
             </div>
             
-            <h2>Or contact me directly by completing this form</h2>
+            <h3 className="margin-bottom center">Or contact me directly by completing this form:</h3>
 
-            <form>Test</form>
+            <form action="https://formsubmit.co/samuelchadhardy@gmail.com" method="POST">
+                <div className="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required></input>
+                </div>
+
+                <div className="form-item">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" required></input>
+                </div>
+
+                <button type="submit">SEND</button>
+            </form>
         </main>
     );
 };

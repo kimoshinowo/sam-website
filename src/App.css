@@ -8,6 +8,7 @@
 :root {
     --primary-colour: #fa955f;
     --primary-colour--dark: #cc6a35;
+    --primary-colour--extra-dark: #874623;
     --primary-colour--light: #ffdbc7;
     --primary-colour--tint: #fcefe8;
 
@@ -15,6 +16,7 @@
 }
 
 * {
+    box-sizing: border-box;
     color: black;
     font-family: primary-font;
     line-height: 110%;
@@ -104,6 +106,84 @@ p.large {
 a > *:hover {
     text-decoration: underline;
     text-underline-offset: 6px;
+}
+
+form {
+    display: block;
+    width: 100%;
+
+    @media only screen and (min-width: 1024px) {
+        margin: auto;
+        max-width: 600px;
+        width: 80%;
+    }
+}
+
+input {
+    border: 2px solid #707070;
+    border-radius: 10px;
+    display: flex;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 100%;
+
+    @media only screen and (min-width: 769px) {
+        width: 50%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        width: 70%;
+    }
+}
+
+input:hover,
+input:focus,
+input:active {
+    border-color: var(--primary-colour--extra-dark);
+}
+
+input:focus,
+input:active {
+    border-width: 3px;
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    @media only screen and (min-width: 769px) {
+        width: 50%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        width: 30%;
+    }
+}
+
+button {
+    background-color: var(--primary-colour--light);
+    border-radius: 10px;
+    border: none;
+    color: var(--primary-colour--extra-dark);
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: auto;
+    padding: 15px 80px;
+    text-align: center;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--primary-colour);
+}
+
+button:active {
+    background-color: var(--primary-colour--dark);
+    color: white;
 }
 
 /* Classes */
@@ -382,6 +462,14 @@ img.myndspan {
 .grid-item > * > img {
     display: block;
     margin: 0 auto 20px;
+}
+
+.form-item {
+    @media only screen and (min-width: 769px) {
+        align-items: baseline;
+        display: flex;
+    }
+
 }
 
 /* Modifiers */
