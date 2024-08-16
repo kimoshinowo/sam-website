@@ -40,7 +40,7 @@ const Contact = () => {
             
             <h2>Or contact me directly by completing this form</h2>
 
-            <form></form>
+            <form>Test</form>
         </main>
     );
 };

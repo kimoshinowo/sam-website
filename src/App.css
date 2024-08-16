@@ -40,8 +40,8 @@ main {
     }
 
     @media only screen and (min-width: 1501px) {
-        margin: 80px 300px;
-        width: calc(100% - 600px);
+        margin: 80px 200px;
+        width: calc(100% - 400px);
     }
 }
 
@@ -282,21 +282,19 @@ a > *:hover {
     color: white;
 }
 
-.content-highlight--offset:nth-child(odd) {
-    margin-bottom: 25px;
-
-    @media only screen and (min-width: 900px) {
-        margin-bottom: 0;
-        margin-left: 100px;
-    }
-}
-
-.content-highlight--offset:nth-child(even) {
+.content-highlight--offset {
     margin-bottom: 25px;
 
     @media only screen and (min-width: 900px) {
         margin-bottom: 0;
         margin-right: 100px;
+    }
+}
+
+.content-highlight--offset:nth-of-type(even) {
+    @media only screen and (min-width: 900px) {
+        margin-left: 100px;
+        margin-right: 0;
     }
 }
 
