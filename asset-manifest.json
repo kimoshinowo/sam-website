@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d091356.css",
-    "main.js": "/static/js/main.1074cae6.js",
+    "main.css": "/static/css/main.94f0c97b.css",
+    "main.js": "/static/js/main.942317fe.js",
     "static/js/453.f57589a8.chunk.js": "/static/js/453.f57589a8.chunk.js",
     "static/media/sam.webp": "/static/media/sam.454e5bc63d222b6a9de5.webp",
     "static/media/lancaster-uni-logo.png": "/static/media/lancaster-uni-logo.23ff24c311fc6c00eba6.png",
@@ -12,12 +12,12 @@
     "static/media/github.svg": "/static/media/github.981ed5c27eeadd32f9af6a445bf474ca.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e31a9556cedd41f90f105aa2bd014165.svg",
     "index.html": "/index.html",
-    "main.5d091356.css.map": "/static/css/main.5d091356.css.map",
-    "main.1074cae6.js.map": "/static/js/main.1074cae6.js.map",
+    "main.94f0c97b.css.map": "/static/css/main.94f0c97b.css.map",
+    "main.942317fe.js.map": "/static/js/main.942317fe.js.map",
     "453.f57589a8.chunk.js.map": "/static/js/453.f57589a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d091356.css",
-    "static/js/main.1074cae6.js"
+    "static/css/main.94f0c97b.css",
+    "static/js/main.942317fe.js"
   ]
 }
