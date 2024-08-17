@@ -205,11 +205,7 @@ button:active {
     color: white;
 }
 
-/* Classes/Ids */
-
-#root {
-    width: 100vw;
-}
+/* Classes */
 
 .masthead {
     align-items: center;
