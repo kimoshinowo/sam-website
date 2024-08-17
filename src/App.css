@@ -205,7 +205,11 @@ button:active {
     color: white;
 }
 
-/* Classes */
+/* Classes/Ids */
+
+#root {
+    width: 100vw;
+}
 
 .masthead {
     align-items: center;
@@ -301,7 +305,7 @@ button:active {
 .social-icons {
     display: inline-flex;
     justify-content: space-between;
-    margin: 25px 10% 50px;
+    margin: 25px auto 50px;
     width: 90%;
 
     @media only screen and (min-width: 769px) {
