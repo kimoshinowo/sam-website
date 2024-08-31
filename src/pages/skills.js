@@ -1,5 +1,9 @@
 import React from "react";
-import lancsLogo from '../assets/images/lancaster-uni-logo.png';
+import brushIcon from '../assets/images/icons/skills/brush.svg';
+import graphIcon from '../assets/images/icons/skills/graph.svg';
+import areaChartIcon from '../assets/images/icons/skills/area-chart.svg';
+import dashboardIcon from '../assets/images/icons/skills/dashboard.svg';
+import dataAnalyticsIcon from '../assets/images/icons/skills/data-analytics.svg';
  
 const Skills = () => {
     return (
@@ -15,11 +19,11 @@ const Skills = () => {
                     <p>This process is comprised of the handling of missing values (either imputation or deletion), scaling (standardisation or normalisation), preprocessing (calculation of additional features from the existing data), and formatting.</p>
                 </span>
 
-                <img src={lancsLogo} alt="Lancaster University logo" ></img>
+                <img src={brushIcon} alt="Sweeping brush icon" ></img>
             </div>
 
             <div className="content-highlight content-highlight--dark content-highlight--offset image-text">
-                <img src={lancsLogo} alt="Lancaster University logo" ></img>
+                <img src={dataAnalyticsIcon} alt="Graphs with magnifying glass icon" ></img>
 
                 <span>
                     <h2>Exploratory Analysis</h2>
@@ -39,11 +43,11 @@ const Skills = () => {
                     <p>Examples could include finding profiles of purchasing habits, detecting anomalous data points, and grouping search results.</p>
                 </span>
 
-                <img src={lancsLogo} alt="Lancaster University logo" ></img>
+                <img src={areaChartIcon} alt="Area graph icon" ></img>
             </div>
 
             <div className="content-highlight content-highlight--dark content-highlight--offset image-text">
-                <img src={lancsLogo} alt="Lancaster University logo" ></img>
+                <img src={graphIcon} alt="Bar graph icon" ></img>
 
                 <span>
                     <h2>Modelling</h2>
@@ -63,7 +67,7 @@ const Skills = () => {
                     <p>Both slide decks and data plots can be used in tandem to this effect, additionally the use of dynamic plots can allow exploration and greater depth of understanding when necessary.</p>
                 </span>
 
-                <img src={lancsLogo} alt="Lancaster University logo" ></img>
+                <img src={dashboardIcon} alt="Monitor icon with report on" ></img>
             </div>
         </main>
     );
