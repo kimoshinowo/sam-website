@@ -1,23 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.a8e87436.css",
-    "main.js": "/static/js/main.942317fe.js",
+    "main.js": "/static/js/main.40244900.js",
     "static/js/453.f57589a8.chunk.js": "/static/js/453.f57589a8.chunk.js",
     "static/media/sam.webp": "/static/media/sam.454e5bc63d222b6a9de5.webp",
     "static/media/lancaster-uni-logo.png": "/static/media/lancaster-uni-logo.23ff24c311fc6c00eba6.png",
     "static/media/Louis George Cafe.ttf": "/static/media/Louis George Cafe.eacd87871e9a39013626.ttf",
     "static/media/profile-image.webp": "/static/media/profile-image.1b23e141741fd05d4f21.webp",
     "static/media/researchgate.svg": "/static/media/researchgate.1992d16fe13c32191c9ac2523d989396.svg",
+    "static/media/data-analytics.svg": "/static/media/data-analytics.56a8373e212152127fba85e3ea5371dc.svg",
+    "static/media/dashboard.svg": "/static/media/dashboard.fb5ed79ad1ae6014ff1eb5eb2456772f.svg",
     "static/media/email.svg": "/static/media/email.97994b44ecd42200ec388d60af587a11.svg",
+    "static/media/brush.svg": "/static/media/brush.b2e64d904eaf94021d481f19d7f3ee2a.svg",
     "static/media/github.svg": "/static/media/github.981ed5c27eeadd32f9af6a445bf474ca.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e31a9556cedd41f90f105aa2bd014165.svg",
+    "static/media/graph.svg": "/static/media/graph.6ded0ead1dea3655ef826eeeef69d689.svg",
+    "static/media/area-chart.svg": "/static/media/area-chart.7ec335fcdbcb22c82e54d6552930a872.svg",
     "index.html": "/index.html",
     "main.a8e87436.css.map": "/static/css/main.a8e87436.css.map",
-    "main.942317fe.js.map": "/static/js/main.942317fe.js.map",
+    "main.40244900.js.map": "/static/js/main.40244900.js.map",
     "453.f57589a8.chunk.js.map": "/static/js/453.f57589a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8e87436.css",
-    "static/js/main.942317fe.js"
+    "static/js/main.40244900.js"
   ]
 }
