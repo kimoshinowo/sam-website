@@ -1,7 +1,7 @@
 import React from "react";
-import githubIcon from '../assets/images/icons/github.svg';
-import linkedinIcon from '../assets/images/icons/linkedin.svg';
-import rgIcon from '../assets/images/icons/researchgate.svg';
+import githubIcon from '../assets/images/icons/social/github.svg';
+import linkedinIcon from '../assets/images/icons/social/linkedin.svg';
+import rgIcon from '../assets/images/icons/social/researchgate.svg';
  
 const Contact = () => {
     return (
